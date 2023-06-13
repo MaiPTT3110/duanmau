@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 :root{
-    --color-main-admin: #8b4513;
+    --color-main-admin: brown;
 }
 
 body{
     height: 100vh;
     /* background-image: linear-gradient(to right, rgb(100, 100, 180), rgb(227, 174, 174)); */
-    /* background-color: #8b4513; */
+    /* background-color: grey; */
 }
 
 .container{
@@ -32,7 +32,7 @@ body{
 .admin{
     width: 15%;
     /* background-color: #242731; */
-    background-color: #8b4513;
+    background-color: brown;
     border-radius: 12px;
     padding: 4px;
     color: #fff;
@@ -137,7 +137,7 @@ select{
     border-radius: 12px;
 }
 
-input[type="submit"]{
+input[type="submit"], input[type="reset"]{
     color: #fff;
     background-color: #000;
     border: 1px solid #fff;
